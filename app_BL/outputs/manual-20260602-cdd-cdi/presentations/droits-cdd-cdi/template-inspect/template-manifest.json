@@ -1,0 +1,239 @@
+{
+  "sourcePptx": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\input\\source.pptx",
+  "workspace": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi",
+  "outDir": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect",
+  "generatedAt": "2026-06-02T14:51:28.684Z",
+  "slideCount": 11,
+  "slideArtifacts": [
+    {
+      "slide": 1,
+      "previewPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\source-slides\\source-slide-01.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-01.png",
+      "layoutPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\layouts\\source-slide-01.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-01.layout.json"
+    },
+    {
+      "slide": 2,
+      "previewPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\source-slides\\source-slide-02.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-02.png",
+      "layoutPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\layouts\\source-slide-02.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-02.layout.json"
+    },
+    {
+      "slide": 3,
+      "previewPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\source-slides\\source-slide-03.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-03.png",
+      "layoutPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\layouts\\source-slide-03.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-03.layout.json"
+    },
+    {
+      "slide": 4,
+      "previewPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\source-slides\\source-slide-04.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-04.png",
+      "layoutPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\layouts\\source-slide-04.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-04.layout.json"
+    },
+    {
+      "slide": 5,
+      "previewPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\source-slides\\source-slide-05.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-05.png",
+      "layoutPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\layouts\\source-slide-05.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-05.layout.json"
+    },
+    {
+      "slide": 6,
+      "previewPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\source-slides\\source-slide-06.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-06.png",
+      "layoutPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\layouts\\source-slide-06.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-06.layout.json"
+    },
+    {
+      "slide": 7,
+      "previewPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\source-slides\\source-slide-07.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-07.png",
+      "layoutPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\layouts\\source-slide-07.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-07.layout.json"
+    },
+    {
+      "slide": 8,
+      "previewPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\source-slides\\source-slide-08.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-08.png",
+      "layoutPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\layouts\\source-slide-08.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-08.layout.json"
+    },
+    {
+      "slide": 9,
+      "previewPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\source-slides\\source-slide-09.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-09.png",
+      "layoutPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\layouts\\source-slide-09.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-09.layout.json"
+    },
+    {
+      "slide": 10,
+      "previewPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\source-slides\\source-slide-10.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-10.png",
+      "layoutPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\layouts\\source-slide-10.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-10.layout.json"
+    },
+    {
+      "slide": 11,
+      "previewPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\source-slides\\source-slide-11.png",
+      "previewRelativePath": "template-inspect/source-slides/source-slide-11.png",
+      "layoutPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\layouts\\source-slide-11.layout.json",
+      "layoutRelativePath": "template-inspect/layouts/source-slide-11.layout.json"
+    }
+  ],
+  "inspectPath": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\template-inspect.ndjson",
+  "inspectRelativePath": "template-inspect/template-inspect.ndjson",
+  "inspectTruncated": false,
+  "inspectMetadata": {
+    "revision": "qjs56f",
+    "target": {
+      "id": "pr/7i0mv7"
+    },
+    "kind": {
+      "requested": "slide,textbox,shape,image,table,chart",
+      "tokens": [
+        "slide",
+        "textbox",
+        "shape",
+        "image",
+        "table",
+        "chart"
+      ]
+    },
+    "include": {
+      "tokens": []
+    },
+    "exclude": {
+      "tokens": []
+    },
+    "notices": []
+  },
+  "extractedMedia": [
+    {
+      "entry": "ppt/media/image1.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image1.png",
+      "relativePath": "template-inspect/assets/ppt/media/image1.png",
+      "bytes": 7937
+    },
+    {
+      "entry": "ppt/media/image2.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image2.png",
+      "relativePath": "template-inspect/assets/ppt/media/image2.png",
+      "bytes": 10456
+    },
+    {
+      "entry": "ppt/media/image3.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image3.png",
+      "relativePath": "template-inspect/assets/ppt/media/image3.png",
+      "bytes": 55774
+    },
+    {
+      "entry": "ppt/media/image4.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image4.png",
+      "relativePath": "template-inspect/assets/ppt/media/image4.png",
+      "bytes": 188658
+    },
+    {
+      "entry": "ppt/media/image5.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image5.png",
+      "relativePath": "template-inspect/assets/ppt/media/image5.png",
+      "bytes": 82575
+    },
+    {
+      "entry": "ppt/media/image6.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image6.png",
+      "relativePath": "template-inspect/assets/ppt/media/image6.png",
+      "bytes": 40592
+    },
+    {
+      "entry": "ppt/media/image7.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image7.png",
+      "relativePath": "template-inspect/assets/ppt/media/image7.png",
+      "bytes": 78735
+    },
+    {
+      "entry": "ppt/media/image8.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image8.png",
+      "relativePath": "template-inspect/assets/ppt/media/image8.png",
+      "bytes": 454281
+    },
+    {
+      "entry": "ppt/media/image9.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image9.png",
+      "relativePath": "template-inspect/assets/ppt/media/image9.png",
+      "bytes": 19733
+    },
+    {
+      "entry": "ppt/media/image10.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image10.png",
+      "relativePath": "template-inspect/assets/ppt/media/image10.png",
+      "bytes": 452499
+    },
+    {
+      "entry": "ppt/media/image11.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image11.png",
+      "relativePath": "template-inspect/assets/ppt/media/image11.png",
+      "bytes": 179806
+    },
+    {
+      "entry": "ppt/media/image12.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image12.png",
+      "relativePath": "template-inspect/assets/ppt/media/image12.png",
+      "bytes": 86173
+    },
+    {
+      "entry": "ppt/media/image13.png",
+      "path": "G:\\Clases\\BUT3\\Projet BUT3\\appTest\\app_BL\\outputs\\manual-20260602-cdd-cdi\\presentations\\droits-cdd-cdi\\template-inspect\\assets\\ppt\\media\\image13.png",
+      "relativePath": "template-inspect/assets/ppt/media/image13.png",
+      "bytes": 203870
+    }
+  ],
+  "fonts": [
+    "+mj-cs",
+    "+mj-ea",
+    "+mj-lt",
+    "+mn-cs",
+    "+mn-ea",
+    "+mn-lt",
+    "Angsana New",
+    "Arial",
+    "Calibri",
+    "Cordia New",
+    "DaunPenh",
+    "DokChampa",
+    "Estrangelo Edessa",
+    "Euphemia",
+    "Gautami",
+    "Iskoola Pota",
+    "Kalinga",
+    "Kartika",
+    "Latha",
+    "MV Boli",
+    "Mangal",
+    "Microsoft Himalaya",
+    "Microsoft Uighur",
+    "Microsoft Yi Baiti",
+    "Mongolian Baiti",
+    "MoolBoran",
+    "Nyala",
+    "Open Sans",
+    "Plantagenet Cherokee",
+    "Raavi",
+    "Shruti",
+    "Times New Roman",
+    "Tunga",
+    "Vrinda",
+    "宋体",
+    "新細明體",
+    "맑은 고딕",
+    "ＭＳ Ｐゴシック"
+  ],
+  "packageParts": {
+    "mediaCount": 13,
+    "slideXmlCount": 11,
+    "chartCount": 0,
+    "tableSlideCount": 0
+  }
+}

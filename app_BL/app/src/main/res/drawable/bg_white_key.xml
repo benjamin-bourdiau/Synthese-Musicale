@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Dégradé subtil du blanc vers un gris très clair en bas -->
+    <gradient
+        android:angle="270"
+        android:startColor="#FFFFFF"
+        android:endColor="#E0E0E0" />
+
+    <!-- Contour noir fin -->
+    <stroke
+        android:width="1dp"
+        android:color="#000000" />
+
+    <!-- Coins arrondis uniquement en bas -->
+    <corners
+        android:bottomLeftRadius="6dp"
+        android:bottomRightRadius="6dp" />
+
+</shape>

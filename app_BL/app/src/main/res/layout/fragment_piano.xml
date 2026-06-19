@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3.3"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/main"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <!-- TOUCHES BLANCHES -->
+            <Button android:id="@+id/keyC2" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="C2" android:textColor="#555555" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyD2" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="D2" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyC2" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyE2" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="E2" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyD2" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyF2" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="F2" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyE2" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyG2" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="G2" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyF2" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyA2" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="A2" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyG2" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyB2" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="B2" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyA2" app:layout_constraintTop_toTopOf="parent" />
+
+            <Button android:id="@+id/keyC3" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="C3" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyB2" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyD3" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="D3" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyC3" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyE3" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="E3" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyD3" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyF3" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="F3" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyE3" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyG3" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="G3" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyF3" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyA3" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="A3" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyG3" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyB3" android:layout_width="70dp" android:layout_height="match_parent" android:layout_marginEnd="1dp" android:background="@drawable/bg_white_key" app:backgroundTint="@null" android:gravity="bottom|center_horizontal" android:paddingBottom="20dp" android:text="B3" android:textColor="#555555" app:layout_constraintStart_toEndOf="@+id/keyA3" app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TOUCHES NOIRES -->
+            <Button android:id="@+id/keyCh2" android:layout_width="45dp" android:layout_height="260dp" android:background="@drawable/bg_black_key" app:backgroundTint="@null" android:elevation="10dp" android:text="C#2" android:textColor="@color/white" app:layout_constraintEnd_toStartOf="@+id/keyD2" app:layout_constraintStart_toEndOf="@+id/keyC2" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyDh2" android:layout_width="45dp" android:layout_height="260dp" android:background="@drawable/bg_black_key" app:backgroundTint="@null" android:elevation="10dp" android:text="D#2" android:textColor="@color/white" app:layout_constraintEnd_toStartOf="@+id/keyE2" app:layout_constraintStart_toEndOf="@+id/keyD2" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyFh2" android:layout_width="45dp" android:layout_height="260dp" android:background="@drawable/bg_black_key" app:backgroundTint="@null" android:elevation="10dp" android:text="F#2" android:textColor="@color/white" app:layout_constraintEnd_toStartOf="@+id/keyG2" app:layout_constraintStart_toEndOf="@+id/keyF2" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyGh2" android:layout_width="45dp" android:layout_height="260dp" android:background="@drawable/bg_black_key" app:backgroundTint="@null" android:elevation="10dp" android:text="G#2" android:textColor="@color/white" app:layout_constraintEnd_toStartOf="@+id/keyA2" app:layout_constraintStart_toEndOf="@+id/keyG2" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyAh2" android:layout_width="45dp" android:layout_height="260dp" android:background="@drawable/bg_black_key" app:backgroundTint="@null" android:elevation="10dp" android:text="A#2" android:textColor="@color/white" app:layout_constraintEnd_toStartOf="@+id/keyB2" app:layout_constraintStart_toEndOf="@+id/keyA2" app:layout_constraintTop_toTopOf="parent" />
+
+            <Button android:id="@+id/keyCh3" android:layout_width="45dp" android:layout_height="260dp" android:background="@drawable/bg_black_key" app:backgroundTint="@null" android:elevation="10dp" android:text="C#3" android:textColor="@color/white" app:layout_constraintEnd_toStartOf="@+id/keyD3" app:layout_constraintStart_toEndOf="@+id/keyC3" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyDh3" android:layout_width="45dp" android:layout_height="260dp" android:background="@drawable/bg_black_key" app:backgroundTint="@null" android:elevation="10dp" android:text="D#3" android:textColor="@color/white" app:layout_constraintEnd_toStartOf="@+id/keyE3" app:layout_constraintStart_toEndOf="@+id/keyD3" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyFh3" android:layout_width="45dp" android:layout_height="260dp" android:background="@drawable/bg_black_key" app:backgroundTint="@null" android:elevation="10dp" android:text="F#3" android:textColor="@color/white" app:layout_constraintEnd_toStartOf="@+id/keyG3" app:layout_constraintStart_toEndOf="@+id/keyF3" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyGh3" android:layout_width="45dp" android:layout_height="260dp" android:background="@drawable/bg_black_key" app:backgroundTint="@null" android:elevation="10dp" android:text="G#3" android:textColor="@color/white" app:layout_constraintEnd_toStartOf="@+id/keyA3" app:layout_constraintStart_toEndOf="@+id/keyG3" app:layout_constraintTop_toTopOf="parent" />
+            <Button android:id="@+id/keyAh3" android:layout_width="45dp" android:layout_height="260dp" android:background="@drawable/bg_black_key" app:backgroundTint="@null" android:elevation="10dp" android:text="A#3" android:textColor="@color/white" app:layout_constraintEnd_toStartOf="@+id/keyB3" app:layout_constraintStart_toEndOf="@+id/keyA3" app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+
+    <ViewFlipper
+        android:id="@+id/menuFlipper"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#EADABB">
+
+        <!-- PAGE 0 : MENU PRINCIPAL -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MENU"
+                android:textColor="#3E2723"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="32dp"/>
+
+            <Button android:id="@+id/btnNavSons" android:layout_width="match_parent" android:layout_height="60dp" android:text="Sons Préenregistrés" app:backgroundTint="#5D4037" android:textColor="@color/white" android:layout_marginBottom="16dp"/>
+            <Button android:id="@+id/btnNavApprentissage" android:layout_width="match_parent" android:layout_height="60dp" android:text="Mode Apprentissage" app:backgroundTint="#5D4037" android:textColor="@color/white" android:layout_marginBottom="16dp"/>
+            <Button android:id="@+id/btnNavEnregistrement" android:layout_width="match_parent" android:layout_height="60dp" android:text="Enregistrement" app:backgroundTint="#5D4037" android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <!-- PAGE 1 : PARTITIONS -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button android:id="@+id/btnBackSons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="◀ Retour" app:backgroundTint="#8D6E63" android:textColor="@color/white" android:layout_marginBottom="16dp"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Partitions" android:textColor="#3E2723" android:textSize="20sp" android:textStyle="bold" android:gravity="center" android:layout_marginBottom="16dp"/>
+
+                <Button android:id="@+id/btnElise" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="La Lettre à Élise" app:backgroundTint="#5D4037" android:layout_marginBottom="8dp"/>
+                <Button android:id="@+id/btnMarche" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Marche Impériale" app:backgroundTint="#5D4037" android:layout_marginBottom="8dp"/>
+                <Button android:id="@+id/btnTetris" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tetris" app:backgroundTint="#5D4037" android:layout_marginBottom="8dp"/>
+                <Button android:id="@+id/btnAnniv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Joyeux Anniversaire" app:backgroundTint="#5D4037" android:layout_marginBottom="8dp"/>
+                <Button android:id="@+id/btnPirate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pirates des Caraïbes" app:backgroundTint="#5D4037" android:layout_marginBottom="8dp"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- PAGE 2 : APPRENTISSAGE -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button android:id="@+id/btnBackApprentissage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="◀ Retour" app:backgroundTint="#8D6E63" android:textColor="@color/white" android:layout_marginBottom="16dp"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Mode Apprentissage" android:textColor="#3E2723" android:textSize="20sp" android:textStyle="bold" android:gravity="center" android:layout_marginBottom="16dp"/>
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Suis les touches bleues !" android:textColor="#5D4037" android:gravity="center" android:layout_marginBottom="16dp"/>
+
+                <Button android:id="@+id/btnLearnElise" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Apprendre : Élise" app:backgroundTint="#009688" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+                <Button android:id="@+id/btnLearnTetris" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Apprendre : Tetris" app:backgroundTint="#009688" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+            </LinearLayout>
+        </ScrollView>
+
+        <!-- PAGE 3 : ENREGISTREMENT MISE À JOUR -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <Button android:id="@+id/btnBackEnregistrement" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="◀ Retour" app:backgroundTint="#8D6E63" android:textColor="@color/white" android:layout_marginBottom="16dp"/>
+
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Studio d'Enregistrement" android:textColor="#3E2723" android:textSize="20sp" android:textStyle="bold" android:gravity="center" android:layout_marginBottom="8dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerRecordings"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="#D7C5A3"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView android:id="@+id/tvRecordStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Aucun enregistrement" android:textColor="#5D4037" android:textStyle="bold" android:gravity="center" android:layout_marginBottom="16dp"/>
+
+            <Button android:id="@+id/btnRecord" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="⏺ Nouvel Enregistrement" app:backgroundTint="#F44336" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+            <Button android:id="@+id/btnStopRecord" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="⏹ Arrêter" app:backgroundTint="#9E9E9E" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+            <Button android:id="@+id/btnPlayRecord" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="▶ Écouter sélection" app:backgroundTint="#4CAF50" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+            <Button android:id="@+id/btnDeleteRecord" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="🗑 Effacer sélection" app:backgroundTint="#FF9800" android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </ViewFlipper>
+</LinearLayout>

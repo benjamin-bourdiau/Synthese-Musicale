@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    android:padding="32dp"
+    tools:context=".MenuActivity">
+
+    <!-- Titre de l'application -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Synthèse Musicale"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Petit sous-titre pour expliquer -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contrôleur MIDI Bluetooth"
+        android:textColor="#AAAAAA"
+        android:textSize="18sp"
+        android:layout_marginBottom="64dp"/>
+
+
+    <!-- Bouton pour ouvrir le piano -->
+    <Button
+        android:id="@+id/btnOpenPiano"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Ouvrir le Piano"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4CAF50"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
