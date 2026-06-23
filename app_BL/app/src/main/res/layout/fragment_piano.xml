@@ -101,6 +101,7 @@
                 <Button android:id="@+id/btnTetris" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tetris" app:backgroundTint="#5D4037" android:layout_marginBottom="8dp"/>
                 <Button android:id="@+id/btnAnniv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Joyeux Anniversaire" app:backgroundTint="#5D4037" android:layout_marginBottom="8dp"/>
                 <Button android:id="@+id/btnPirate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pirates des Caraïbes" app:backgroundTint="#5D4037" android:layout_marginBottom="8dp"/>
+                <Button android:id="@+id/btnCrazy" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Crazy Frog" app:backgroundTint="#5D4037" android:layout_marginBottom="8dp"/>
             </LinearLayout>
         </ScrollView>
 
@@ -122,6 +123,10 @@
 
                 <Button android:id="@+id/btnLearnElise" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Apprendre : Élise" app:backgroundTint="#009688" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
                 <Button android:id="@+id/btnLearnTetris" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Apprendre : Tetris" app:backgroundTint="#009688" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+                <Button android:id="@+id/btnLearnMarche" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Apprendre : Marche" app:backgroundTint="#009688" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+                <Button android:id="@+id/btnLearnAnniv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Apprendre : Anniv" app:backgroundTint="#009688" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+                <Button android:id="@+id/btnLearnPirate" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Apprendre : Pirates" app:backgroundTint="#009688" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
+                <Button android:id="@+id/btnLearnCrazy" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Apprendre : Crazy Frog" app:backgroundTint="#009688" android:textColor="@color/white" android:layout_marginBottom="8dp"/>
             </LinearLayout>
         </ScrollView>
 

@@ -101,18 +101,48 @@ class PianoFragment : Fragment() {
         view.findViewById<Button>(R.id.btnBackApprentissage)?.setOnClickListener(btnBackListener)
         view.findViewById<Button>(R.id.btnBackEnregistrement)?.setOnClickListener(btnBackListener)
 
-        // ─── Partitions et Apprentissage ───
+        // ─── Partitions (Écoute automatique) ───
         view.findViewById<Button>(R.id.btnElise)?.setOnClickListener { lancerMusique { jouerLettreAElise() } }
         view.findViewById<Button>(R.id.btnMarche)?.setOnClickListener { lancerMusique { jouerMarcheImperiale() } }
         view.findViewById<Button>(R.id.btnTetris)?.setOnClickListener { lancerMusique { jouerTetris() } }
         view.findViewById<Button>(R.id.btnAnniv)?.setOnClickListener { lancerMusique { jouerJoyeuxAnniversaire() } }
         view.findViewById<Button>(R.id.btnPirate)?.setOnClickListener { lancerMusique { jouerPiratesCaraibes() } }
+        view.findViewById<Button>(R.id.btnCrazy)?.setOnClickListener { lancerMusique { jouerCrazyFrog() } }
 
+        // ─── Mode Apprentissage (Séquences complètes) ───
         view.findViewById<Button>(R.id.btnLearnElise)?.setOnClickListener {
-            demarrerApprentissage(listOf(0x35, 0x34, 0x35, 0x34, 0x35, 0x2C, 0x33, 0x31, 0x2A))
+            demarrerApprentissage(listOf(
+                0x35, 0x34, 0x35, 0x34, 0x35, 0x2C, 0x33, 0x31, 0x2A,
+                0x21, 0x25, 0x2A, 0x2C, 0x25, 0x29, 0x2C, 0x31
+            ))
         }
         view.findViewById<Button>(R.id.btnLearnTetris)?.setOnClickListener {
-            demarrerApprentissage(listOf(0x35, 0x2C, 0x31, 0x33, 0x31, 0x2C, 0x2A, 0x2A, 0x31, 0x35, 0x33, 0x31, 0x2C))
+            demarrerApprentissage(listOf(
+                0x35, 0x2C, 0x31, 0x33, 0x31, 0x2C, 0x2A, 0x2A, 0x31, 0x35, 0x33, 0x31, 0x2C, 0x2C, 0x31, 0x33, 0x35, 0x31, 0x2A, 0x2A,
+                0x33, 0x36, 0x3A, 0x38, 0x36, 0x35, 0x31, 0x35, 0x33, 0x31, 0x2C, 0x2C, 0x31, 0x33, 0x35, 0x31, 0x2A, 0x2A
+            ))
+        }
+        view.findViewById<Button>(R.id.btnLearnMarche)?.setOnClickListener {
+            demarrerApprentissage(listOf(
+                0x2A, 0x2A, 0x2A, 0x26, 0x31, 0x2A, 0x26, 0x31, 0x2A
+            ))
+        }
+        view.findViewById<Button>(R.id.btnLearnAnniv)?.setOnClickListener {
+            demarrerApprentissage(listOf(
+                0x28, 0x28, 0x2A, 0x28, 0x31, 0x2C, 0x28, 0x28, 0x2A, 0x28, 0x33, 0x31
+            ))
+        }
+        view.findViewById<Button>(R.id.btnLearnPirate)?.setOnClickListener {
+            demarrerApprentissage(listOf(
+                0x2A, 0x31, 0x33, 0x33, 0x33, 0x35, 0x36, 0x36, 0x36, 0x38, 0x35, 0x35, 0x33, 0x31, 0x33
+            ))
+        }
+        view.findViewById<Button>(R.id.btnLearnCrazy)?.setOnClickListener {
+            demarrerApprentissage(listOf(
+                0x33, 0x36, 0x33, 0x33, 0x38, 0x33, 0x31, // Première ligne (D, F, D, D, G, D, C)
+                0x33, 0x3A, 0x33, 0x33, 0x3B, 0x3A, 0x36, // Deuxième ligne (D, A, D, D, Bb, A, F)
+                0x33, 0x3A                                // Fin (D, A)
+            ))
         }
 
         // ─── Page 3 : Enregistrement ─────────────────────────────────────────
@@ -503,6 +533,32 @@ class PianoFragment : Fragment() {
         jouerNote(0x35, 0x55, moyen);  jouerNote(0x35, 0x55, moyen)
         jouerNote(0x33, 0x53, rapide); jouerNote(0x31, 0x51, rapide)
         jouerNote(0x33, 0x53, long)
+    }
+
+    private fun jouerCrazyFrog() {
+        val normal = 400L
+        val court = 200L
+        val tresCourt = 100L
+
+        // Première partie
+        jouerNote(0x33, 0x53, normal)    // Ré3 (D)
+        jouerNote(0x36, 0x56, court)    // Fa3 (F)
+        jouerNote(0x33, 0x53, court)     // Ré3 (D)
+        jouerNote(0x33, 0x53, tresCourt) // Ré3 (D) rapide
+        jouerNote(0x38, 0x58, court)     // Sol3 (G)
+        jouerNote(0x33, 0x53, court)     // Ré3 (D)
+        jouerNote(0x31, 0x51, court)    // Do3 (C)
+
+        Thread.sleep(100) // Petite pause pour le rythme
+
+        // Deuxième partie
+        jouerNote(0x33, 0x53, normal)    // Ré3 (D)
+        jouerNote(0x3A, 0x5A, normal)    // La3 (A)
+        jouerNote(0x33, 0x53, court)     // Ré3 (D)
+        jouerNote(0x33, 0x53, tresCourt) // Ré3 (D) rapide
+        jouerNote(0x3B, 0x5B, court)     // La#3 / Sib3 (Bb)
+        jouerNote(0x3A, 0x5A, court)     // La3 (A)
+        jouerNote(0x36, 0x56, normal)    // Fa3 (F)
     }
 
     override fun onDestroyView() {
