@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+Code ESP32/.pio/
+Code ESP32/.vscode/
